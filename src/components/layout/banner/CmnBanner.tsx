@@ -6,9 +6,16 @@ interface BannerProps {
   navigation?: any;
   parent?: any;
   parentLink?: any;
+  bannerContent?: any;
 }
 
-const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
+const CmnBanner = ({
+  title,
+  navigation,
+  parent,
+  parentLink,
+  bannerContent,
+}: BannerProps) => {
   return (
     <>
       <section
@@ -42,11 +49,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             </div>
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
-                <p className="primary-text">
-                  We&apos;re an UK-based top-notch design agency committed to
-                  partnering with good companies and hiring the right people for
-                  the right roles.
-                </p>
+                <p className="primary-text">{bannerContent}</p>
               </div>
             </div>
           </div>

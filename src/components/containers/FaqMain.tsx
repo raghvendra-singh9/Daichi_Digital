@@ -33,7 +33,7 @@ const FaqMain = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    I&apos;m a total beginner. Can I still follow along?
+                    What makes Daiichi Digital different from other agencies?
                   </button>
                 </h5>
                 <div
@@ -46,10 +46,8 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      We’re all about exclusive focus—one client per industry,
+                      per area. No distractions, no drama, just results.
                     </p>
                   </div>
                 </div>
@@ -72,7 +70,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Will you be updating the program?
+                    What industries do you serve?
                   </button>
                 </h5>
                 <div
@@ -85,10 +83,9 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      You name it—we probably serve it. And we do it with a
+                      one-client-per-industry approach so you know we’ve got
+                      your back.
                     </p>
                   </div>
                 </div>
@@ -111,7 +108,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Can I get an invoice for my purchase?
+                    How does your pricing work?
                   </button>
                 </h5>
                 <div
@@ -124,10 +121,9 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      No cookie-cutter prices here—just custom quotes based on
+                      what you need. Pay for what you get, and nothing you
+                      don’t.
                     </p>
                   </div>
                 </div>
@@ -150,7 +146,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    What is global search engine optimization?
+                    Do you offer long-term contracts?
                   </button>
                 </h5>
                 <div
@@ -163,10 +159,160 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      Nah, we’re not clingy. Choose project-based work or
+                      ongoing services—it’s all up to you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "accordion-item content__space fade-top" +
+                  (imgTab === 4 ? " faq-one-active" : " ")
+                }
+              >
+                <h5 className="accordion-header" id="headingFour">
+                  <button
+                    className={
+                      (imgTab == 4 ? "  " : " collapsed") + " accordion-button"
+                    }
+                    onClick={() => setImgTab(imgTab === 4 ? -1 : 4)}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What results can I expect?
+                  </button>
+                </h5>
+                <div
+                  id="collapseFour"
+                  className={`accordion-collapse collapse${
+                    imgTab === 4 ? " show " : ""
+                  }`}
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordion"
+                >
+                  <div className="accordion-body">
+                    <p>
+                      Think more traffic, more leads, more wins. SEO takes a few
+                      months; PPC gives you that instant hit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "accordion-item content__space fade-top" +
+                  (imgTab === 5 ? " faq-one-active" : " ")
+                }
+              >
+                <h5 className="accordion-header" id="headingFour">
+                  <button
+                    className={
+                      (imgTab == 5 ? "  " : " collapsed") + " accordion-button"
+                    }
+                    onClick={() => setImgTab(imgTab === 5 ? -1 : 5)}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    How do I get started?
+                  </button>
+                </h5>
+                <div
+                  id="collapseFour"
+                  className={`accordion-collapse collapse${
+                    imgTab === 5 ? " show " : ""
+                  }`}
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordion"
+                >
+                  <div className="accordion-body">
+                    <p>
+                      Just reach out—we promise it’s easy. Let’s chat about your
+                      goals and craft a plan that works.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "accordion-item content__space fade-top" +
+                  (imgTab === 6 ? " faq-one-active" : " ")
+                }
+              >
+                <h5 className="accordion-header" id="headingFour">
+                  <button
+                    className={
+                      (imgTab == 6 ? "  " : " collapsed") + " accordion-button"
+                    }
+                    onClick={() => setImgTab(imgTab === 6 ? -1 : 6)}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    How does your pricing work?
+                  </button>
+                </h5>
+                <div
+                  id="collapseFour"
+                  className={`accordion-collapse collapse${
+                    imgTab === 6 ? " show " : ""
+                  }`}
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordion"
+                >
+                  <div className="accordion-body">
+                    <p>
+                      Pricing is based on the scope and complexity of the
+                      services you require. We offer flexible and affordable
+                      pricing that can be tailored to fit your specific needs
+                      and budget.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "accordion-item content__space fade-top" +
+                  (imgTab === 7 ? " faq-one-active" : " ")
+                }
+              >
+                <h5 className="accordion-header" id="headingFour">
+                  <button
+                    className={
+                      (imgTab == 7 ? "  " : " collapsed") + " accordion-button"
+                    }
+                    onClick={() => setImgTab(imgTab === 7 ? -1 : 7)}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What is your experience in running PPC campaigns?
+                  </button>
+                </h5>
+                <div
+                  id="collapseFour"
+                  className={`accordion-collapse collapse${
+                    imgTab === 7 ? " show " : ""
+                  }`}
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordion"
+                >
+                  <div className="accordion-body">
+                    <p>
+                      We have years of experience in running successful PPC
+                      campaigns on platforms like Google Ads and Facebook Ads,
+                      focusing on driving high-quality traffic and maximizing
+                      ROI.
                     </p>
                   </div>
                 </div>

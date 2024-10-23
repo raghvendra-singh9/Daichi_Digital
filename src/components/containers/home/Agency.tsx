@@ -99,19 +99,22 @@ const Agency = () => {
                 WELCOME
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">
-                We are digital creative agency in London
-              </h2>
+              <h2 className="title title-anim">Who We Are:</h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                  we know that no two businesses are alike. That’s why we
+                  specialize in customized digital marketing strategies that
+                  match your unique goals. Our name, Daiichi, is inspired by the
+                  Japanese word for "Number One," reflecting our commitment to
+                  being the best in SEO, PPC, content marketing, and social
+                  media management. What sets us apart? Our
+                  one-client-per-industry policy means you get our undivided
+                  attention—no sharing, no distractions. We’re here to fuel your
+                  growth with affordable, top-notch marketing solutions that
+                  keep you ahead of the curve.
                 </p>
               </div>
-              <div className="skill-wrap">
+              {/* <div className="skill-wrap">
                 <div className="skill-bar-single d-none">
                   <div className="skill-bar-title">
                     <p className="primary-text">Website design</p>
@@ -148,7 +151,7 @@ const Agency = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="section__content-cta">
                 <Link href="about-us" className="btn btn--primary">
                   Know More

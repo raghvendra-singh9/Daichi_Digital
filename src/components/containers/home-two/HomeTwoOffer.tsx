@@ -69,7 +69,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">uI / uX experience</Link>
+                  <Link href="service-single">Social Media Management </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -85,7 +85,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Product Design</Link>
+                  <Link href="service-single">Digital Advertising </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -101,7 +101,9 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Digital Marketing</Link>
+                  <Link href="service-single">
+                    Website Design and Development
+                  </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -117,7 +119,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Web Development</Link>
+                  <Link href="service-single">Search Engine Optimization </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -133,7 +135,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Mobile App</Link>
+                  <Link href="service-single">Branding and Graphic Design</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -149,7 +151,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Custom Solutions</Link>
+                  <Link href="service-single">E-commerce Solutions </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -165,87 +167,9 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Ecommerce Solutions</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  08
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Photography</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  05
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Mobile App</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  06
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Custom Solutions</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  07
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Ecommerce Solutions</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  08
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Photography</Link>
+                  <Link href="service-single">
+                    Google My Business Management
+                  </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -279,7 +203,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">uI / uX experience</Link>
+                  <Link href="service-single">Social Media Management </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -295,7 +219,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Product Design</Link>
+                  <Link href="service-single">Digital Advertising </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -311,7 +235,9 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Digital Marketing</Link>
+                  <Link href="service-single">
+                    Website Design and Development
+                  </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -327,7 +253,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Web Development</Link>
+                  <Link href="service-single">Search Engine Optimization </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -343,7 +269,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Mobile App</Link>
+                  <Link href="service-single">Branding and Graphic Design</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -359,7 +285,7 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Custom Solutions</Link>
+                  <Link href="service-single">E-commerce Solutions </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -375,87 +301,9 @@ const HomeTwoOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Ecommerce Solutions</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  08
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Photography</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  05
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Mobile App</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  06
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Custom Solutions</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  07
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Ecommerce Solutions</Link>
-                </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={ball} alt="Image" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="offer-two__slider-single offer__cta">
-              <div className="offer__cta-single">
-                <span className="sub-title">
-                  08
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-                <h2>
-                  <Link href="service-single">Photography</Link>
+                  <Link href="service-single">
+                    Google My Business Management
+                  </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />

@@ -50,15 +50,16 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Branding</Link>
+                          <Link href="service-single">
+                            Social Media Management
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
-                        <li>Customer Value</li>
+                        <li>Content creation</li>
+                        <li>Strategy development</li>
+                        <li>Account management</li>
+                        <li>Analytics & reporting</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -78,15 +79,17 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UX Design</Link>
+                          <Link href="service-single">
+                            Digital Advertising (PPC)
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
-                        <li>Information Architecture</li>
+                        <li>Google Ads & Social Media Ads</li>
+                        <li>MEDIA Planning</li>
+                        <li>Campaign strategy & planning</li>
+                        <li>A/B testing & optimization</li>
+                        <li>Analytics & performance tracking</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -106,15 +109,16 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UI Design</Link>
+                          <Link href="service-single">
+                            Website Design and Development
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Hi-Fidelity Wireframe</li>
-                        <li>Design System</li>
-                        <li>Final Presentation</li>
-                        <li>Final Delivery</li>
-                        <li>Post Delivery Support</li>
+                        <li>Custom website design</li>
+                        <li>E-commerce development</li>
+                        <li>Responsive & mobile-first design</li>
+                        <li>SEO-friendly development</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -134,15 +138,16 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Development</Link>
+                          <Link href="service-single">
+                            Search Engine Optimization (SEO)
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Front End</li>
-                        <li>Backend</li>
-                        <li>Mobile App</li>
-                        <li>Post Delivery Support</li>
-                        <li>server development</li>
+                        <li>On-page & technical SEO</li>
+                        <li>Off-page SEO & backlinks</li>
+                        <li>Local SEO</li>
+                        <li>Content optimization</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -158,19 +163,20 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          01
+                          05
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Branding</Link>
+                          <Link href="service-single">
+                            Content Creation and Marketing
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
-                        <li>Customer Value</li>
+                        <li>Blog & article creation</li>
+                        <li>Video production</li>
+                        <li> Graphic design </li>
+                        <li>Copywriting & email content</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -186,19 +192,20 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          02
+                          06
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UX Design</Link>
+                          <Link href="service-single">
+                            Branding and Graphic Design
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
-                        <li>Information Architecture</li>
+                        <li>Logo & brand identity</li>
+                        <li>Packaging design</li>
+                        <li>Marketing collateral </li>
+                        <li>Social media visuals</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -214,19 +221,20 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          03
+                          07
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UI Design</Link>
+                          <Link href="service-single">
+                            E-commerce Solutions
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Hi-Fidelity Wireframe</li>
-                        <li>Design System</li>
-                        <li>Final Presentation</li>
-                        <li>Final Delivery</li>
-                        <li>Post Delivery Support</li>
+                        <li>E-commerce site development</li>
+                        <li>Product Mockups</li>
+                        <li>Payment integration</li>
+                        <li>E-commerce SEO</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -242,19 +250,20 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          04
+                          08
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Development</Link>
+                          <Link href="service-single">
+                            Google My Business (GMB) Management
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Front End</li>
-                        <li>Backend</li>
-                        <li>Mobile App</li>
-                        <li>Post Delivery Support</li>
-                        <li>server development</li>
+                        <li>GMB setup & optimization</li>
+                        <li>Post management & updates</li>
+                        <li>Review management</li>
+                        <li>Local SEO & analytics</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">

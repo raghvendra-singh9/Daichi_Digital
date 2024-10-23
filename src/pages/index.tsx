@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@/components/layout/Layout";
 import HomeTwoBanner from "@/components/layout/banner/HomeTwoBanner";
-import HomeTwoSponsor from "@/components/containers/home-two/HomeTwoSponsor";
+// import HomeTwoSponsor from "@/components/containers/home-two/HomeTwoSponsor";
 import HomeTwoAward from "@/components/containers/home-two/HomeTwoAward";
 import HomeTwoOffer from "@/components/containers/home-two/HomeTwoOffer";
 import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
@@ -15,7 +15,7 @@ const HomeTwo = () => {
   return (
     <Layout header={2} footer={2} video={true}>
       <HomeTwoBanner />
-      <HomeTwoSponsor />
+      {/* <HomeTwoSponsor /> */}
       <HomeTwoAward />
       <HomeTwoOffer />
       <HomeTwoModal />

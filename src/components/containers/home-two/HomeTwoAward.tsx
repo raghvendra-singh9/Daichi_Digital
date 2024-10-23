@@ -22,17 +22,26 @@ const HomeTwoAward = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                Discover Our <span>Awards</span>
+                Why Daiichi Digital? <span>It’s Simple:</span>
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined
+                  All Eyes on You: We work with a one-client-per-industry
+                  model—no distractions, just 100% focus on your success.
+                </p>
+                <p>
+                  Affordable Excellence: Get premium services without the
+                  premium price tag. We believe effective marketing should be
+                  accessible to all businesses, no matter the size.
+                </p>
+                <p>
+                  One-Stop Digital Shop: From SEO to Website Development, social
+                  media to PPC ads, we’ve got you covered across all digital
+                  fronts, giving you a complete marketing solution under one
+                  roof.
                 </p>
               </div>
-              <div className="award__content-meta">
+              {/* <div className="award__content-meta">
                 <div className="single">
                   <h4>2018</h4>
                   <h4>Awwwards</h4>
@@ -48,7 +57,7 @@ const HomeTwoAward = () => {
                   <h4>Awwwards</h4>
                   <p>Apps of the day</p>
                 </div>
-              </div>
+              </div> */}
               <div className="section__content-cta">
                 <Link href="about-us" className="btn btn--primary">
                   Know More

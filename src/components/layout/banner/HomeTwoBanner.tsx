@@ -65,14 +65,17 @@ const HomeTwoBanner = () => {
               </div>
               <div className="banner-two__content">
                 <h1 className="title-anim">
-                  THE <span>UI UX DESIGN</span> AGENCY FOR BETTER METRICS
+                  Fueling
+                  <span>growth without</span> breaking the bank.
                 </h1>
                 <div className="banner-two__content-cta section__content-cta">
                   <div className="paragraph">
                     <p>
-                      We are a data-driven UI UX design agency delivering
-                      complete end-to-end web, mobile, and Web3 user experience
-                      design solutions for better core metrics.
+                      At Daiichi Digital, we make custom digital marketing plans
+                      that fits you like your favorite hoodie. We’ve got you,
+                      And the best part? We do it all affordably, so you can
+                      spend less while making more. Let’s fuel that growth
+                      together!
                     </p>
                   </div>
                   <div className="arrow-wrapper d-none d-lg-block">

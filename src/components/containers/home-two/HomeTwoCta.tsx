@@ -15,9 +15,7 @@ const HomeTwoCta = () => {
               <div className="row justify-content-center">
                 <div className="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-9">
                   <div className="section__header text-center">
-                    <h2 className="title">
-                      Stay Ahead With Our Top Notch Digital Services
-                    </h2>
+                    <h2 className="title">Get Your First 5 Graphics On Us!</h2>
                   </div>
                   <div className="footer__single-form">
                     <form action="#" method="post">
