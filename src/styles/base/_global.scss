@@ -1,6 +1,13 @@
 /* ==== 
  --------- (2.03) global styles start ---------
  ==== */
+@font-face {
+  font-family: "Gendy";
+  src: url("/fonts/WOFF/Gendy.woff2") format("woff2"),
+    url("/fonts/WOFF/Gendy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 img {
   max-width: 100%;

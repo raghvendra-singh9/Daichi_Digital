@@ -66,7 +66,7 @@ const HomeTwoBanner = () => {
               <div className="banner-two__content">
                 <h1 className="title-anim">
                   Fueling
-                  <span>growth without</span> breaking the bank.
+                  <span> growth without</span> breaking the bank.
                 </h1>
                 <div className="banner-two__content-cta section__content-cta">
                   <div className="paragraph">

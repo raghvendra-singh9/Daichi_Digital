@@ -121,20 +121,40 @@ const ContactMain = () => {
                           />
                         </div>
                       </div>
+                      <div className="group-wrapper">
+                        <div className="group-input ">
+                          <input
+                            type="text"
+                            name="company-name"
+                            id="companyName"
+                            placeholder="Company Name"
+                          />
+                        </div>
+
+                        <div className="group-input ">
+                          <input
+                            type="tel"
+                            name="contact-phone"
+                            id="contactPhone"
+                            placeholder="Phone"
+                          />
+                        </div>
+                      </div>
                       <div className="group-input drt">
                         <select className="subject">
-                          <option data-display="Subject">Subject</option>
-                          <option value="1">Account</option>
-                          <option value="2">Service</option>
-                          <option value="3">Pricing</option>
-                          <option value="4">Support</option>
+                          <option data-display="Subject">
+                            Best Time to Contact You
+                          </option>
+                          <option value="1">Morning</option>
+                          <option value="2">Afternoon</option>
+                          <option value="3">Evening</option>
                         </select>
                       </div>
                       <div className="group-input ">
                         <textarea
                           name="contact-message"
                           id="contactMessage"
-                          placeholder="Message"
+                          placeholder="How Can We Help You?"
                         ></textarea>
                       </div>
                       <div className="form-cta justify-content-start">

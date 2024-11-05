@@ -65,53 +65,16 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          Home
+                          <Link href="/">Home</Link>
                         </button>
-                        <ul className="navbar__sub-menu navbar__sub-menu--lg">
-                          <li>
-                            <Link href="/">Creative Agency</Link>
-                          </li>
-                          <li>
-                            <Link href="index-light">
-                              Creative Agency Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-two">Digital Agency</Link>
-                          </li>
-                          <li>
-                            <Link href="index-two-light">
-                              Digital Agency Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-three">It Solution</Link>
-                          </li>
-                          <li>
-                            <Link href="index-three-light">
-                              It Solution Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-four">Personal Portfolio</Link>
-                          </li>
-                          <li>
-                            <Link href="index-four-light">
-                              Personal Portfolio Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-five">Interactive Portfolio</Link>
-                          </li>
-                          <li>
-                            <Link href="index-five-light">
-                              Interactive Portfolio Light
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
-                      <li className="navbar__item nav-fade">
-                        <Link href="about-us">About Us</Link>
+                      <li className="navbar__item navbar__item--has-children nav-fade">
+                        <button
+                          aria-label="dropdown menu"
+                          className="navbar__dropdown-label"
+                        >
+                          <Link href="about-us">About Us</Link>
+                        </button>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
@@ -129,65 +92,14 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li>
                         </ul>
                       </li>
+
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          Projects
+                          <Link href="contact-us">Contact Us</Link>
                         </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="our-projects">Our Projects</Link>
-                          </li>
-                          <li>
-                            <Link href="project-single">Project Details</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Pages
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="faq">FAQ</Link>
-                          </li>
-                          <li>
-                            <Link href="404">Error</Link>
-                          </li>
-                          <li>
-                            <Link href="our-story">Our Story</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio">Portfolio</Link>
-                          </li>
-                          <li className="navbar__item navbar__item--has-children">
-                            <button
-                              aria-label="dropdown menu"
-                              className="navbar__dropdown-label navbar__dropdown-label-sub"
-                            >
-                              Team
-                            </button>
-                            <ul className="navbar__sub-menu navbar__sub-menu__nested">
-                              <li>
-                                <Link href="our-teams">Our Teams</Link>
-                              </li>
-                              <li>
-                                <Link href="team-single">Team Details</Link>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <Link href="client-feedback">Testimonials</Link>
-                          </li>
-                          <li>
-                            <Link href="contact-us">Contact Us</Link>
-                          </li>
-                        </ul>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button

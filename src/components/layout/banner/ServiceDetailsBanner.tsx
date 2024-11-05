@@ -24,7 +24,7 @@ const ServiceDetailsBanner = () => {
                     <Link href="our-services">Our Services</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Ux Desig
+                    Ux Design
                   </li>
                 </ol>
               </nav>
