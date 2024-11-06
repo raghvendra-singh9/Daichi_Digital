@@ -173,7 +173,7 @@ const Layout = ({
           href="/images/favicon.png"
           type="image/x-icon"
         />
-        <title>Xpovio | Digital Agency Creative Portfolio Template</title>
+        <title>Daiichi Digital | Fueling Growth</title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta
           name="description"
