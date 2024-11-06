@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import dawn from "public/images/banner/dawn.png";
+// import dawn from "public/images/banner/dawn.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeTwoBanner = () => {
@@ -40,7 +40,9 @@ const HomeTwoBanner = () => {
   return (
     <section
       className="banner-two"
-      style={{ backgroundImage: "url('/images/banner/banner-two-bg.png')" }}
+      style={{
+        backgroundImage: "url('/images/banner/banner-bg-wave-two.png')",
+      }}
     >
       <div className="container">
         <div className="row">
@@ -93,7 +95,7 @@ const HomeTwoBanner = () => {
           </div>
         </div>
       </div>
-      <Image src={dawn} alt="Image" className="dawn" />
+      {/* <Image src={dawn} alt="Image" className="dawn" /> */}
     </section>
   );
 };

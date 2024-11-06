@@ -5,7 +5,7 @@ import HomeTwoBanner from "@/components/layout/banner/HomeTwoBanner";
 import HomeTwoAward from "@/components/containers/home-two/HomeTwoAward";
 import HomeTwoOffer from "@/components/containers/home-two/HomeTwoOffer";
 import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
-import NextPageNull from "@/components/containers/home/NextPageNull";
+
 import HomeTwoPortfolio from "@/components/containers/home-two/HomeTwoPortfolio";
 import HomeTwoTestimonial from "@/components/containers/home-two/HomeTwoTestimonial";
 import HomeTwoBlog from "@/components/containers/home-two/HomeTwoBlog";
@@ -23,7 +23,6 @@ const HomeTwo = () => {
       <HomeTwoTestimonial />
       <HomeTwoBlog />
       <HomeTwoCta />
-      <NextPageNull />
     </Layout>
   );
 };

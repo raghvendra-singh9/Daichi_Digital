@@ -6,11 +6,8 @@ import VanillaTilt from "vanilla-tilt";
 import { useRouter } from "next/router";
 import Header from "./header/HeaderTwo";
 import HeaderTwo from "./header/HeaderTwo";
-import Footer from "./footer/Footer";
+import Footer from "./footer/FooterTwo";
 import FooterTwo from "./footer/FooterTwo";
-import FooterThree from "./footer/FooterThree";
-import FooterFour from "./footer/FooterFour";
-import FooterFive from "./footer/FooterFive";
 // import VideoModal from "./VideoModal";
 import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
@@ -202,9 +199,6 @@ const Layout = ({
         <main>{children}</main>
         {footer === 1 && <Footer />}
         {footer === 2 && <FooterTwo />}
-        {footer === 3 && <FooterThree />}
-        {footer === 4 && <FooterFour />}
-        {footer === 5 && <FooterFive />}
         {/* {video ? <VideoModal /> : null} */}
         <ScrollProgressBtn />
         <CustomCursor
