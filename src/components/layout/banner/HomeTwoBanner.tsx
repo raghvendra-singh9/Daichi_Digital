@@ -44,18 +44,18 @@ const HomeTwoBanner = () => {
         backgroundImage: "url('/images/banner/daiich_loop_1.mp4')",
       }}
     >
+      <video
+        className="video-background"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+      >
+        <source src="/images/myVideo.mp4" type="video/mp4" />
+        {/* <source src={myVideowebm} type="video/webm" /> */}
+      </video>
       <div className="container">
-        <video
-          className="video-background"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-        >
-          <source src="/images/myVideo.mp4" type="video/mp4" />
-          {/* <source src={myVideowebm} type="video/webm" /> */}
-        </video>
         <div className="row">
           <div className="col-12">
             <div className="banner-two-inner">
