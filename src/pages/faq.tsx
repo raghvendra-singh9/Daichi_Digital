@@ -5,7 +5,7 @@ import FaqMain from "@/components/containers/FaqMain";
 
 const FaqPage = () => {
   return (
-    <Layout header={2} footer={5} video={0}>
+    <Layout header={2} footer={2} video={0}>
       <CmnBanner
         title="Got Questions? We’ve Got Answers!"
         navigation="Faq"

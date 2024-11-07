@@ -41,22 +41,28 @@ const HomeTwoBanner = () => {
     <section
       className="banner-two"
       style={{
-        backgroundImage: "url('/images/banner/banner-bg-wave-two.png')",
+        backgroundImage: "url('/images/banner/daiich_loop_1.mp4')",
       }}
     >
       <div className="container">
+        <video
+          className="video-background"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+        >
+          <source src="/images/myVideo.mp4" type="video/mp4" />
+          {/* <source src={myVideowebm} type="video/webm" /> */}
+        </video>
         <div className="row">
           <div className="col-12">
             <div className="banner-two-inner">
               <div className="banner-two__meta">
-                <div className="thumb imae">
-                  <video autoPlay loop muted controls>
-                    <source src="/images/banner-video.mp4" type="video/mp4" />
-                  </video>
-                </div>
                 <div className="cta section__content-cta m-0">
                   <div className="single">
-                    <h5 className="fw-7">12+</h5>
+                    <h5 className="fw-7">6+</h5>
                     <p className="fw-5">years of experience</p>
                   </div>
                   <div className="single">

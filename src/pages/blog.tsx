@@ -5,7 +5,7 @@ import BlogMain from "@/components/containers/blog/BlogMain";
 
 const BlogPage = () => {
   return (
-    <Layout header={2} footer={5} video={0}>
+    <Layout header={2} footer={2} video={0}>
       <CmnBanner
         title=" The Digital Growth Hub—But Make It Fun"
         navigation="Blog Standard"
