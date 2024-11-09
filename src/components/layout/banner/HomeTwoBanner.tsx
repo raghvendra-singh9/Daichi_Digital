@@ -59,7 +59,7 @@ const HomeTwoBanner = () => {
         <div className="row">
           <div className="col-12">
             <div className="banner-two-inner">
-              <div className="banner-two__meta">
+              {/* <div className="banner-two__meta">
                 <div className="cta section__content-cta m-0">
                   <div className="single">
                     <h5 className="fw-7">6+</h5>
@@ -70,11 +70,10 @@ const HomeTwoBanner = () => {
                     <p className="fw-5">completed projects</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="banner-two__content">
                 <h1 className="title-anim">
-                  Fueling
-                  <span> growth without</span> breaking the bank.
+                  <span> Fueling growth </span> without breaking the bank.
                 </h1>
                 <div className="banner-two__content-cta section__content-cta">
                   <div className="paragraph">

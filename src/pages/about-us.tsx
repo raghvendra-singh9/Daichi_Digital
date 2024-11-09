@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/banner/CmnBanner";
 import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
 import AboutCta from "@/components/containers/home-two/AboutCta";
+import UxProcessTwo from "@/components/containers/service-details/UxProcessTwo";
 
 const AboutUs = () => {
   return (
@@ -16,6 +17,7 @@ const AboutUs = () => {
                   all about helping businesses thrive in today’s digital age."
       />
       <HomeTwoModal />
+      <UxProcessTwo />
       <AboutCta />
     </Layout>
   );

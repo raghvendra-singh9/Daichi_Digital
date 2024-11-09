@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import star from "public/images/testimonial/star.png";
-import thumb from "public/images/testimonial/thumb.png";
+import testimonial from "public/images/testimonial/testimonial.png";
 import avatar from "public/images/testimonial/avatar.png";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -42,7 +42,7 @@ const HomeTwoTestimonial = () => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-5 col-xxl-4">
             <div className="testimonial-two__thumb">
-              <Image src={thumb} alt="Image" />
+              <Image src={testimonial} alt="Image" />
             </div>
           </div>
           <div className="col-12 col-lg-7 col-xxl-7 offset-xxl-1">

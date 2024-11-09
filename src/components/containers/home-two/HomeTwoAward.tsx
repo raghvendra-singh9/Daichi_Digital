@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import awardthumb from "public/images/award-thumb.png";
+import whychooseus from "public/images/why-choose-us.png";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 
@@ -12,7 +12,11 @@ const HomeTwoAward = () => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-6">
             <div className="award__thumb dir-rtl">
-              <Image src={awardthumb} alt="Image" className="unset fade-left" />
+              <Image
+                src={whychooseus}
+                alt="Image"
+                className="unset fade-left"
+              />
             </div>
           </div>
           <div className="col-12 col-lg-6 col-xxl-5 offset-xxl-1">

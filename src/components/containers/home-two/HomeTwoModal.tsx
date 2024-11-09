@@ -51,18 +51,19 @@ const HomeTwoModal = () => {
         onClick={() => setVideoActive(false)}
       >
         <div className="video-inner">
-          <div
-            className="video-container"
-            onClick={(e: any) => e.stopPropagation()}
-          >
-            {videoActive && <YoutubeEmbed embedId="fSv6UgCkuTU" />}
+          <div className="video-container">
+            {/* onClick={(e: any) => e.stopPropagation()} */}
+            <video autoPlay loop controls muted={false} playsInline>
+              <source src="/images/Preview.mp4" type="video/mp4" />
+            </video>
+            {/* {videoActive && <YoutubeEmbed embedId="fSv6UgCkuTU" />}
             <button
               aria-label="close video popup"
               className="close-video-popup"
               onClick={() => setVideoActive(false)}
             >
               <i className="fa-solid fa-xmark"></i>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
