@@ -79,29 +79,29 @@
 ============== */
 
 // abstract styles
-@import "./abstracts/mixins";
-@import "./abstracts/variables";
+@import './abstracts/mixins';
+@import './abstracts/variables';
 
 // base styles
-@import "./base/reset";
-@import "./base/typography";
-@import "./base/global";
+@import './base/reset';
+@import './base/typography';
+@import './base/global';
 
 // component styles
-@import "./components/buttons";
-@import "./components/forms";
-@import "./components/preloader";
+@import './components/buttons';
+@import './components/forms';
+@import './components/preloader';
 
 // layout styles
-@import "./layout/header";
-@import "./layout/banner";
-@import "./layout/footer";
+@import './layout/header';
+@import './layout/banner';
+@import './layout/footer';
 
 // section styles
-@import "./sections/all-sections";
+@import './sections/all-sections';
 
 // themes styles
-@import "./themes/light-theme";
+@import './themes/light-theme';
 
 // responsive styles
-@import "./responsive";
+@import './responsive';

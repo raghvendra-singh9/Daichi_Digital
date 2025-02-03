@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: var(--theme-font);
+  font-family: var(--body-font);
   font-size: 16px;
   line-height: 0px;
   font-weight: 400;
@@ -128,12 +128,12 @@ input {
   }
 }
 
-input[type="number"] {
+input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   width: initial;
   height: initial;
 }
@@ -158,14 +158,15 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   font-family: var(--inter);
   padding: 0px;
   margin: 0px;
   color: var(--theme-color) !important;
 }
-
+p {
+  font-family: var(--body-font);
+}
 .container {
   padding-left: 15px !important;
   padding-right: 15px !important;

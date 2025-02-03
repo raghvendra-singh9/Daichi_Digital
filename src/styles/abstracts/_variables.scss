@@ -1,11 +1,12 @@
 // (1.02) variables
 
 // inter google font source
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   // font family
-  --inter: "Gendy", sans-serif;
+  --inter: 'Gendy', sans-serif;
+  --body-font: 'Poppins', sans-serif;
 
   // theme default
   --theme-font: var(--inter);
