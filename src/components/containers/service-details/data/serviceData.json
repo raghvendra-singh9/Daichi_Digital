@@ -1,0 +1,47 @@
+[
+  {
+    "id": "social-media-management",
+    "title": "Social Media Management",
+    "description": [
+      "We manage and grow your social media presence with engaging content and data-driven strategies."
+    ],
+    "approachTitle": "Our Approach",
+    "approachContent": [
+      "We start by understanding your brand and audience, then create a tailored strategy for engagement."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  },
+  {
+    "id": "digital-advertising",
+    "title": "Digital Advertising (PPC)",
+    "description": [
+      "We create high-performing PPC campaigns that drive traffic and conversions."
+    ],
+    "approachTitle": "Our Strategy",
+    "approachContent": [
+      "Using audience research and A/B testing, we optimize ad spend for maximum ROI."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  },
+  {
+    "id": "seo",
+    "title": "Digital Advertising (PPC)",
+    "description": [
+      "We create high-performing PPC campaigns that drive traffic and conversions."
+    ],
+    "approachTitle": "Our Strategy",
+    "approachContent": [
+      "Using audience research and A/B testing, we optimize ad spend for maximum ROI."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  }
+]
