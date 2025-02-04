@@ -30,8 +30,83 @@
     }
   },
   {
+    "id": "website-design-and-development",
+    "title": "Website Design and Development",
+    "description": [
+      "We create high-performing PPC campaigns that drive traffic and conversions."
+    ],
+    "approachTitle": "Our Strategy",
+    "approachContent": [
+      "Using audience research and A/B testing, we optimize ad spend for maximum ROI."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  },
+  {
     "id": "seo",
-    "title": "Digital Advertising (PPC)",
+    "title": "Search Engine Optimization (SEO))",
+    "description": [
+      "We create high-performing PPC campaigns that drive traffic and conversions."
+    ],
+    "approachTitle": "Our Strategy",
+    "approachContent": [
+      "Using audience research and A/B testing, we optimize ad spend for maximum ROI."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  },
+  {
+    "id": "content-creation-and-marketing",
+    "title": "Content Creation and Marketing",
+    "description": [
+      "We create high-performing PPC campaigns that drive traffic and conversions."
+    ],
+    "approachTitle": "Our Strategy",
+    "approachContent": [
+      "Using audience research and A/B testing, we optimize ad spend for maximum ROI."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  },
+  {
+    "id": "branding-and-graphic-design",
+    "title": "Branding and Graphic Design",
+    "description": [
+      "We create high-performing PPC campaigns that drive traffic and conversions."
+    ],
+    "approachTitle": "Our Strategy",
+    "approachContent": [
+      "Using audience research and A/B testing, we optimize ad spend for maximum ROI."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  },
+  {
+    "id": "e-commerce-solutions",
+    "title": "E-commerce Solutions",
+    "description": [
+      "We create high-performing PPC campaigns that drive traffic and conversions."
+    ],
+    "approachTitle": "Our Strategy",
+    "approachContent": [
+      "Using audience research and A/B testing, we optimize ad spend for maximum ROI."
+    ],
+    "images": {
+      "thumbOne": "/images/service/thumb-one.png",
+      "thumbTwo": "/images/service/thumb-two.png"
+    }
+  },
+  {
+    "id": "google-my-business-management",
+    "title": "Google My Business (GMB) Management",
     "description": [
       "We create high-performing PPC campaigns that drive traffic and conversions."
     ],
