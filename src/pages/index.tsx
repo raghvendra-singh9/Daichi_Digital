@@ -1,15 +1,15 @@
-import React from "react";
-import Layout from "@/components/layout/Layout";
-import HomeTwoBanner from "@/components/layout/banner/HomeTwoBanner";
+import React from 'react';
+import Layout from '@/components/layout/Layout';
+import HomeTwoBanner from '@/components/layout/banner/HomeTwoBanner';
 // import HomeTwoSponsor from "@/components/containers/home-two/HomeTwoSponsor";
-import HomeTwoAward from "@/components/containers/home-two/HomeTwoAward";
-import HomeTwoOffer from "@/components/containers/home-two/HomeTwoOffer";
-import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
+import HomeTwoAward from '@/components/containers/home-two/HomeTwoAward';
+import HomeTwoOffer from '@/components/containers/home-two/HomeTwoOffer';
+import HomeTwoModal from '@/components/containers/home-two/HomeTwoModal';
 
-import HomeTwoPortfolio from "@/components/containers/home-two/HomeTwoPortfolio";
-import HomeTwoTestimonial from "@/components/containers/home-two/HomeTwoTestimonial";
-import HomeTwoBlog from "@/components/containers/home-two/HomeTwoBlog";
-import HomeTwoCta from "@/components/containers/home-two/HomeTwoCta";
+import HomeTwoPortfolio from '@/components/containers/home-two/HomeTwoPortfolio';
+// import HomeTwoTestimonial from '@/components/containers/home-two/HomeTwoTestimonial';
+// import HomeTwoBlog from "@/components/containers/home-two/HomeTwoBlog";
+import HomeTwoCta from '@/components/containers/home-two/HomeTwoCta';
 
 const HomeTwo = () => {
   return (
@@ -20,8 +20,8 @@ const HomeTwo = () => {
       <HomeTwoOffer />
       <HomeTwoModal />
       <HomeTwoPortfolio />
-      <HomeTwoTestimonial />
-      <HomeTwoBlog />
+      {/* <HomeTwoTestimonial /> */}
+      {/* <HomeTwoBlog /> */}
       <HomeTwoCta />
     </Layout>
   );

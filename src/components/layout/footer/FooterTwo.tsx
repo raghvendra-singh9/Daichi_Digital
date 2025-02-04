@@ -1,32 +1,32 @@
-import React, { useState, useEffect, useRef } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import logo from "public/images/logo.png";
-import gsap from "gsap";
-import chroma from "chroma-js";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import React, { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import logo from 'public/images/logo.png';
+import gsap from 'gsap';
+import chroma from 'chroma-js';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 const FooterTwo = () => {
   const currentYear = new Date().getFullYear();
 
   const animatedTextRef = useRef<any>(null);
-  const [animatedTextContent, setAnimatedTextContent] = useState("");
+  const [animatedTextContent, setAnimatedTextContent] = useState('');
 
   useEffect(() => {
-    const animatedChars = document.querySelectorAll(".animated-char");
+    const animatedChars = document.querySelectorAll('.animated-char');
 
     if (animatedChars.length > 0) {
       const folksBD = gsap.timeline({
         repeat: -1,
         delay: 0.5,
         scrollTrigger: {
-          trigger: ".animated-text",
-          start: "bottom 100%-=50px",
+          trigger: '.animated-text',
+          start: 'bottom 100%-=50px',
         },
       });
 
-      const folksGradient = chroma.scale(["#ff7425", "#ffffff"]);
+      const folksGradient = chroma.scale(['#ff7425', '#ffffff']);
 
       animatedChars.forEach((charElement, index) => {
         const delay = index * 0.04;
@@ -36,8 +36,8 @@ const FooterTwo = () => {
           {
             duration: 0.5,
             scaleY: 0.6,
-            ease: "power3.out",
-            transformOrigin: "center bottom",
+            ease: 'power3.out',
+            transformOrigin: 'center bottom',
           },
           delay
         );
@@ -46,7 +46,7 @@ const FooterTwo = () => {
           charElement,
           {
             yPercent: -20,
-            ease: "elastic",
+            ease: 'elastic',
             duration: 0.8,
           },
           delay + 0.5
@@ -56,7 +56,7 @@ const FooterTwo = () => {
           charElement,
           {
             scaleY: 1,
-            ease: "elastic.out(2.5, 0.2)",
+            ease: 'elastic.out(2.5, 0.2)',
             duration: 1.5,
           },
           delay + 0.5
@@ -68,7 +68,7 @@ const FooterTwo = () => {
             color: () => {
               return folksGradient(index / animatedChars.length).hex();
             },
-            ease: "power2.out",
+            ease: 'power2.out',
             duration: 0.3,
           },
           delay + 0.5
@@ -78,7 +78,7 @@ const FooterTwo = () => {
           charElement,
           {
             yPercent: 0,
-            ease: "back",
+            ease: 'back',
             duration: 0.8,
           },
           delay + 0.7
@@ -87,7 +87,7 @@ const FooterTwo = () => {
         folksBD.to(
           charElement,
           {
-            color: "#ffffff",
+            color: '#ffffff',
             duration: 1.4,
           },
           delay + 0.9
@@ -101,7 +101,7 @@ const FooterTwo = () => {
     const textContent = animatedTextRef.current?.textContent;
     if (textContent) {
       setAnimatedTextContent(textContent);
-      animatedText.innerHTML = "";
+      animatedText.innerHTML = '';
     }
   }, []);
 
@@ -126,12 +126,12 @@ const FooterTwo = () => {
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info@gmail.com"
+                    href="mailto:daiichidigitals@gmail.com"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@gmail.com
-                    {animatedTextContent.split("").map((char, index) => (
+                    daiichidigitals@gmail.com
+                    {animatedTextContent.split('').map((char, index) => (
                       <span
                         aria-hidden="true"
                         className="animated-char"
@@ -175,15 +175,15 @@ const FooterTwo = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Wyoming, USA
                 </Link>
                 <Link href="tel:406-555-0120">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   (406) 555-0120
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:daiichidigitals@gmail.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  daiichidigitals@gmail.com
                 </Link>
               </div>
             </div>
@@ -197,14 +197,11 @@ const FooterTwo = () => {
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> Xpovio by{" "}
-                  <Link
-                    href="https://themeforest.net/user/UltraDevs"
-                    target="_blank"
-                  >
-                    {" "}
-                    UltraDevs
-                  </Link>{" "}
+                  <span id="copyYear">{currentYear}</span> by{' '}
+                  <Link href="" target="_blank">
+                    {' '}
+                    Daichii Digitals
+                  </Link>{' '}
                   . All Rights Reserved
                 </p>
               </div>

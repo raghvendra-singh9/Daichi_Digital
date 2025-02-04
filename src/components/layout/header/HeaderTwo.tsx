@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import logo from "public/images/logo.png";
-import logoLight from "public/images/logo-light.png";
-import Offcanvas from "./Offcanvas";
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { useRouter } from 'next/router';
+import logo from 'public/images/logo.png';
+import logoLight from 'public/images/logo-light.png';
+import Offcanvas from './Offcanvas';
 
 interface HeaderProps {
   openNav: boolean;
@@ -25,23 +25,23 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  const defaultClasses = "primary-navbar cmn-nav";
+  const defaultClasses = 'primary-navbar cmn-nav';
 
   const combinedClasses = `${
-    scrolled ? " navbar-active" : " "
+    scrolled ? ' navbar-active' : ' '
   } ${defaultClasses}`;
 
   let logoSrc = logo;
 
   const router = useRouter();
-  if (router.pathname === "/index-two-light") {
+  if (router.pathname === '/index-two-light') {
     logoSrc = logoLight;
   }
 
@@ -93,7 +93,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <Link href="contact-us">Contact Us</Link>
                         </button>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
+                      {/* <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
@@ -108,7 +108,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             <Link href="blog-single">Blog Details</Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   <div className="navbar__options">

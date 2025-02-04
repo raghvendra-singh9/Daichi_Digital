@@ -1,17 +1,17 @@
-import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-import "swiper/swiper-bundle.css";
-import one from "public/images/portfolio/one.png";
-import two from "public/images/portfolio/two.png";
-import three from "public/images/portfolio/three.png";
-import four from "public/images/portfolio/four.png";
-import five from "public/images/portfolio/five.png";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
+import one from 'public/images/portfolio/one.png';
+import two from 'public/images/portfolio/two.png';
+import three from 'public/images/portfolio/three.png';
+import four from 'public/images/portfolio/four.png';
+import five from 'public/images/portfolio/five.png';
 
 const HomeTwoPortfolio = () => {
-  const [activeFilter, setActiveFilter] = useState("*");
+  const [activeFilter, setActiveFilter] = useState('*');
 
   const handleTabClick = (filter: any) => {
     setActiveFilter(filter);
@@ -48,7 +48,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  Conatct Us
+                  Contact Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -68,7 +68,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  Conatct Us
+                  Contact Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -88,7 +88,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  Conatct Us
+                  Contact Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
