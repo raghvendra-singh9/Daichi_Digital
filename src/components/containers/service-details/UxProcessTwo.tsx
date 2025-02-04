@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const UxProcessTwo = () => {
   const [imgTab, setImgTab] = useState(0);
@@ -10,10 +10,10 @@ const UxProcessTwo = () => {
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
               <span className="sub-title">
-                UX Process
+                How We Work
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">working UX Process</h2>
+              <h2 className="title title-anim">How We Work </h2>
             </div>
           </div>
         </div>
@@ -22,20 +22,20 @@ const UxProcessTwo = () => {
             <div className="service-f-wrapper">
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 0 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 0 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>User Research</h4>
+                    <h4>Understanding Your Vision</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We start by getting to know you—your goals, challenges, and
+                    what success looks like for your business. Your vision
+                    shapes every strategy we create.
                   </p>
                 </div>
                 <button
@@ -45,20 +45,20 @@ const UxProcessTwo = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 1 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 1 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>story board</h4>
+                    <h4>Data at the Core</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Smart marketing is built on data, not guesswork. We analyze
+                    your audience, industry trends, and competitors to build
+                    campaigns that hit the mark.
                   </p>
                 </div>
                 <button
@@ -68,20 +68,20 @@ const UxProcessTwo = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 2 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 2 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>wireframing</h4>
+                    <h4> Customized Strategies</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    No two businesses are alike, so we don’t use generic
+                    solutions. We craft SEO, PPC, and social media strategies
+                    tailored to fit your specific needs.
                   </p>
                 </div>
                 <button
@@ -91,20 +91,20 @@ const UxProcessTwo = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 3 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 3 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Prototyping</h4>
+                    <h4>Clarity in Communication</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We keep you informed with clear, easy-to-understand updates.
+                    You’ll know exactly what’s happening and how it’s impacting
+                    your growth—no confusing jargon.
                   </p>
                 </div>
                 <button
@@ -114,20 +114,20 @@ const UxProcessTwo = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 4 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 4 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>usability testing</h4>
+                    <h4>Constant Optimization</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We don’t set and forget. Our team monitors your campaigns,
+                    making tweaks along the way to ensure the best results for
+                    your investment..
                   </p>
                 </div>
                 <button
@@ -137,20 +137,20 @@ const UxProcessTwo = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 5 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 5 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>UI Design</h4>
+                    <h4> Results That Matter</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Our goal is simple: to drive measurable growth for your
+                    business. We’re here to help you reach new heights, one step
+                    (and one click) at a time.
                   </p>
                 </div>
                 <button

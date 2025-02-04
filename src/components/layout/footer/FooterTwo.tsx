@@ -221,7 +221,7 @@ const FooterTwo = () => {
                   <Link href="faq">FAQ</Link>
                 </li>
                 <li>
-                  <Link href="contact-us">Terms & Conditions</Link>
+                  <Link href="terms-and-conditions">Terms & Conditions</Link>
                 </li>
               </ul>
             </div>

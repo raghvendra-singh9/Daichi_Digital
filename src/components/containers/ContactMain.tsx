@@ -1,10 +1,10 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import phone from "public/images/phone.png";
-import mail from "public/images/mail.png";
-import location from "public/images/location.png";
-import time from "public/images/time.png";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import phone from 'public/images/phone.png';
+import mail from 'public/images/mail.png';
+import location from 'public/images/location.png';
+import time from 'public/images/time.png';
 
 const ContactMain = () => {
   return (
@@ -35,8 +35,8 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Mail Address</h4>
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@gmail.com
+                  <Link href="mailto:daichiidigitals@gmail.com">
+                    daichiidigitals@gmail.com
                   </Link>
                 </p>
                 <p>
@@ -59,7 +59,7 @@ const ContactMain = () => {
                     href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                     target="_blank"
                   >
-                    85 Ketch Harbour RoadBensalem, PA 19020
+                    Wyoming, USA
                   </Link>
                 </p>
               </div>
@@ -88,7 +88,7 @@ const ContactMain = () => {
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20342.411046372905!2d-74.16638039276373!3d40.719832743885284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1649562691355!5m2!1sen!2sbd"
                       width="100"
                       height="800"
-                      style={{ border: "0px" }}
+                      style={{ border: '0px' }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
